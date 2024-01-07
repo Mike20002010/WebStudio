@@ -1,0 +1,15 @@
+.logo{
+    color: dodgerblue;
+}
+  
+.tc{
+text-align: center;
+}
+
+.but{
+    background-color: #3498db; 
+    color: #fff; 
+    padding: 10px 20px; 
+    border: none;
+    border-radius: 5px; 
+}
