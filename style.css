@@ -1,9 +1,13 @@
 .logo{
     color: dodgerblue;
+    text-decoration: none;
 }
   
 .tc{
 text-align: center;
+font-family: Roboto;
+font-weight: 700;
+font-size: 36px;
 }
 
 .but{
@@ -12,4 +16,105 @@ text-align: center;
     padding: 10px 20px; 
     border: none;
     border-radius: 5px; 
+    font-family: Roboto;
+}
+.logo2{
+    color: deepskyblue;
+font-family: Releway;
+text-decoration: none;
+font-weight: 400;
+line-height: 35.96px;
+font-size: 26px;
+}
+
+.e500{
+    font-family: Roboto;
+    font-weight: 500;
+}
+
+.frrst :first-child{
+    font-family: Roboto;
+font-weight: 900;
+font-size: 44px;
+line-height: 60px;
+}
+
+.rty{
+    font-family: Roboto;    
+font-weight: 700;
+font-size: 14px;
+}
+
+.rty :nth-child(2){
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 14px;
+    color: grey; 
+}
+.rty :nth-child(4){font-family: Roboto;
+    font-weight: 400;
+    font-size: 14px;
+    color: grey; }
+.rty :nth-child(6){font-family: Roboto;
+    font-weight: 400;
+    font-size: 14px;
+    color: grey; }
+.rty :nth-child(8){font-family: Roboto;
+    font-weight: 400;
+    font-size: 14px;
+    color: grey; }
+
+    .td{
+        font-family: Roboto;
+        font-weight: 500;
+        font-size: 16px;
+    }
+
+.h3{
+    font-family: Roboto;
+font-size: 16px;
+font-weight: 500;
+line-height: 19px;
+letter-spacing: 0.03em;
+}
+
+.p{
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+    color: darkgray;
+    
+}
+
+.logo3{
+    font-family: Raleway;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    text-align: left;
+text-decoration: none;
+color: dodgerblue;
+}
+
+.footer1{
+    font-family: Roboto;
+font-size: 14px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0.03em;
+text-align: left;
+}
+
+.footer2{
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    color: darkgrey;
+    
 }
