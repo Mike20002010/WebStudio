@@ -1,6 +1,9 @@
-.logo{
-    color: dodgerblue;
+.item:hover{
+   color: deepskyblue;
+}
+.item{
     text-decoration: none;
+    color: black;
 }
   
 .tc{
@@ -18,16 +21,16 @@ font-size: 36px;
     border-radius: 5px; 
     font-family: Roboto;
 }
-.logo2{
+.logo{
     color: deepskyblue;
 font-family: Releway;
 text-decoration: none;
-font-weight: 400;
+font-weight: 700;
 line-height: 35.96px;
 font-size: 26px;
 }
 
-.e500{
+.nav-list{
     font-family: Roboto;
     font-weight: 500;
 }
@@ -118,3 +121,24 @@ text-align: left;
     color: darkgrey;
     
 }
+
+.custom-button {
+    background-color: #f0f0f0; 
+    color: #000000; 
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  
+  .custom-button:hover {
+    background-color: #3498db; 
+    color: #ffffff; 
+  }
+  
+
+  .custom-button:active {
+    background-color: #2980b9; 
+  }
