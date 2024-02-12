@@ -1,16 +1,45 @@
+.body{
+    font-family: roboto;
+  }
+
+.logo{
+    color: deepskyblue;
+font-family: Raleway;
+text-decoration: none;
+font-weight: 700;
+line-height: 1.4;
+font-size: 26px;
+}
+
+
 .item:hover{
    color: deepskyblue;
 }
 .item{
     text-decoration: none;
     color: black;
+    font-family: roboto;
+    font-weight: 500;
+    line-height: 1.2;
 }
   
-.tc{
+.work-headline{
 text-align: center;
 font-family: Roboto;
 font-weight: 700;
 font-size: 36px;
+line-height: 1.2;
+}
+
+.team{
+font-family: Roboto;
+font-weight: 700;
+font-size: 36px;
+}
+
+.team-headline{
+    text-align: center;
+    line-height: 1.2;
 }
 
 .but{
@@ -20,76 +49,79 @@ font-size: 36px;
     border: none;
     border-radius: 5px; 
     font-family: Roboto;
-}
-.logo{
-    color: deepskyblue;
-font-family: Releway;
-text-decoration: none;
-font-weight: 700;
-line-height: 35.96px;
-font-size: 26px;
+    line-height: 1.8;
 }
 
-.nav-list{
+
+.banner{
     font-family: Roboto;
     font-weight: 500;
 }
 
-.frrst :first-child{
+.main-section :first-child{
     font-family: Roboto;
 font-weight: 900;
 font-size: 44px;
-line-height: 60px;
+line-height: 1.4;
 }
 
-.rty{
+.feature{
     font-family: Roboto;    
 font-weight: 700;
 font-size: 14px;
 }
 
-.rty :nth-child(2){
+.feature :nth-child(2){
     font-family: Roboto;
     font-weight: 400;
     font-size: 14px;
     color: grey; 
 }
-.rty :nth-child(4){font-family: Roboto;
+.feature :nth-child(4){font-family: Roboto;
     font-weight: 400;
     font-size: 14px;
     color: grey; }
-.rty :nth-child(6){font-family: Roboto;
+.feature :nth-child(6){font-family: Roboto;
     font-weight: 400;
     font-size: 14px;
     color: grey; }
-.rty :nth-child(8){font-family: Roboto;
+.feature :nth-child(8){font-family: Roboto;
     font-weight: 400;
     font-size: 14px;
     color: grey; }
 
-    .td{
+    .feature-item{
+        line-height: 1.7;
+    }
+
+    .team-list{
         font-family: Roboto;
         font-weight: 500;
         font-size: 16px;
     }
 
-.h3{
+.feature-headline{
+    line-height: 1.2;
+}
+
+.team-item-title{
     font-family: Roboto;
 font-size: 16px;
 font-weight: 500;
-line-height: 19px;
+line-height: 1.2;
 letter-spacing: 0.03em;
 }
 
-.p{
+.team-item-description{
     font-family: Roboto;
     font-size: 16px;
     font-weight: 400;
-    line-height: 19px;
+    line-height: 1.2;
     letter-spacing: 0.03em;
     color: darkgray;
     
 }
+
 
 .logo3{
     font-family: Raleway;
@@ -102,43 +134,24 @@ text-decoration: none;
 color: dodgerblue;
 }
 
-.footer1{
+.footer-address{
     font-family: Roboto;
 font-size: 14px;
 font-weight: 400;
-line-height: 24px;
+line-height: 1.7;
 letter-spacing: 0.03em;
 text-align: left;
 }
 
-.footer2{
+.footer-contact{
     font-family: Roboto;
     font-size: 14px;
     font-weight: 400;
-    line-height: 24px;
+    line-height: 1.7;
     letter-spacing: 0.03em;
     text-align: left;
     color: darkgrey;
     
 }
 
-.custom-button {
-    background-color: #f0f0f0; 
-    color: #000000; 
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s, color 0.3s;
-  }
   
-  
-  .custom-button:hover {
-    background-color: #3498db; 
-    color: #ffffff; 
-  }
-  
-
-  .custom-button:active {
-    background-color: #2980b9; 
-  }
