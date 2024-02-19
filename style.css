@@ -1,9 +1,31 @@
+html, 
+body,
+header,
+a,
+nav,
+ul,
+li,
+section,
+button,
+h3,
+p,
+img,
+ footer{ 
+    margin: 0;
+    padding:0 ;
+}
+
+
+a{
+    text-decoration: none;
+}
+
 .body{
     font-family: roboto;
   }
 
 .logo{
-    color: deepskyblue;
+   color: rgba(33, 150, 243, 1);
 font-family: Raleway;
 text-decoration: none;
 font-weight: 700;
@@ -13,7 +35,7 @@ font-size: 26px;
 
 
 .item:hover{
-   color: deepskyblue;
+   color: rgba(33, 150, 243, 1);
 }
 .item{
     text-decoration: none;
@@ -37,13 +59,20 @@ font-weight: 700;
 font-size: 36px;
 }
 
+.team-list{
+    display: flex;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+
 .team-headline{
     text-align: center;
     line-height: 1.2;
 }
 
-.but{
-    background-color: #3498db; 
+.hero-btn{
+    background-color:rgba(33, 150, 243, 1);
     color: #fff; 
     padding: 10px 20px; 
     border: none;
@@ -63,6 +92,7 @@ font-size: 36px;
 font-weight: 900;
 font-size: 44px;
 line-height: 1.4;
+text-align: center;
 }
 
 .feature{
@@ -131,7 +161,7 @@ letter-spacing: 0.03em;
     letter-spacing: 0.03em;
     text-align: left;
 text-decoration: none;
-color: dodgerblue;
+color: rgba(33, 150, 243, 1);
 }
 
 .footer-address{
@@ -155,3 +185,97 @@ text-align: left;
 }
 
   
+
+
+
+    /* ----------пртфоліо----------- */
+    a{
+        text-decoration: none; 
+      }
+      .logo{
+          color:rgba(33, 150, 243, 1);
+      font-family: Raleway;
+      text-decoration: none;
+      font-weight: 700;
+      line-height: 1.4;
+      font-size: 26px;
+      }
+      
+      .item:hover{
+          color: rgba(33, 150, 243, 1);
+       }
+       .item{
+           text-decoration: none;
+           color: black;
+           font-family: roboto;
+           font-weight: 500;
+           line-height: 1.2
+           
+       }
+      
+       .custom-button {
+          background-color: #f0f0f0; 
+          color: #000000; 
+          padding: 10px 20px;
+          border: none;
+          border-radius: 5px;
+          cursor: pointer;
+          transition: background-color 0.3s, color 0.3s;
+        }
+        
+        
+        .custom-button:hover {
+          background-color: rgba(33, 150, 243, 1);
+ 
+          color: #ffffff; 
+        }
+        
+      
+        .custom-button:active {
+          background-color: rgba(33, 150, 243, 1);
+        }
+      
+        .services{
+      font-family: Roboto;
+      font-weight: 700;
+      font-size: 36px;}
+      
+        .services-item-title{
+          font-family: Roboto;
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 1.2;
+      letter-spacing: 0.03em;
+      }
+      
+      .services-item-description{
+          font-family: Roboto;
+          font-size: 16px;
+          font-weight: 400;
+          line-height: 1.2;
+          letter-spacing: 0.03em;
+          color: darkgray;
+          
+      }
+      
+      .footer-address{
+          font-family: Roboto;
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 1.7;
+      letter-spacing: 0.03em;
+      text-align: left;
+      }
+      
+      .footer-contact{
+          font-family: Roboto;
+          font-size: 14px;
+          font-weight: 400;
+          line-height: 1.7;
+          letter-spacing: 0.03em;
+          text-align: left;
+          color: darkgrey;
+          
+      }
+      
+      
