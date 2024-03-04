@@ -24,6 +24,13 @@ a{
     font-family: roboto;
   }
 
+.container{
+    width: 1170px;
+    margin: 0 auto;
+    padding: 15px;
+    
+}
+
 .logo{
    color: rgba(33, 150, 243, 1);
 font-family: Raleway;
@@ -33,6 +40,11 @@ line-height: 1.4;
 font-size: 26px;
 }
 
+.nav-list{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
 
 .item:hover{
    color: rgba(33, 150, 243, 1);
@@ -51,12 +63,23 @@ font-family: Roboto;
 font-weight: 700;
 font-size: 36px;
 line-height: 1.2;
+margin-top: 94px;
+}
+
+.work-item{
+    margin-bottom: 94px;
+    margin-top: 50px;
 }
 
 .team{
 font-family: Roboto;
 font-weight: 700;
 font-size: 36px;
+}
+
+.team-item{
+    margin-top: 50px;
+    margin-bottom: 94px;
 }
 
 .team-list{
@@ -69,9 +92,13 @@ font-size: 36px;
 .team-headline{
     text-align: center;
     line-height: 1.2;
+    margin-top: 94px;
 }
 
+
 .hero-btn{
+    margin: 0 auto;
+    display: block;
     background-color:rgba(33, 150, 243, 1);
     color: #fff; 
     padding: 10px 20px; 
@@ -87,18 +114,32 @@ font-size: 36px;
     font-weight: 500;
 }
 
-.main-section :first-child{
+.main-section{
+    margin-top: 200px;
+    margin-bottom: 200px;
+    margin-left: 252px;
+    margin-right: 252px;
+    background: rgba(47, 48, 58, 1);
+
+
+
+}
+
+.main-section-h1{
     font-family: Roboto;
 font-weight: 900;
 font-size: 44px;
 line-height: 1.4;
 text-align: center;
+color: rgba(255, 255, 255, 1);
 }
 
 .feature{
     font-family: Roboto;    
 font-weight: 700;
 font-size: 14px;
+margin-top: 94px;
+margin-bottom: 94px;
 }
 
 .feature :nth-child(2){
@@ -213,6 +254,11 @@ text-align: left;
            
        }
       
+.custom-button{
+   margin-top: 94px;
+   margin-left: ;
+}
+
        .custom-button {
           background-color: #f0f0f0; 
           color: #000000; 
@@ -236,9 +282,14 @@ text-align: left;
         }
       
         .services{
+        list-style-type: none;
+         margin: 0;
+        padding: 0;
       font-family: Roboto;
       font-weight: 700;
-      font-size: 36px;}
+      font-size: 36px;
+    margin-top: 34px;}
+      
       
         .services-item-title{
           font-family: Roboto;
