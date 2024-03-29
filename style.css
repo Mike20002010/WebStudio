@@ -42,6 +42,11 @@ a{
    align-items: center;
 }
 
+.header-line{
+    height: 1px;
+    background: #ECECEC;
+}
+
 .logo{
  font-family: Raleway;
  text-decoration: none;
@@ -169,17 +174,16 @@ font-size: 36px;
 }
 
 .main-section-h1{
-    color: var(--title-color);
+    color: #fff;
 
     font-weight: 900;
     font-size: 44px;
     line-height: 60px;
     letter-spacing: 2.64px;
     text-transform: uppercase;
-    text-align: center;
-
-    display: flex;
-    align-items: center;
+    margin: 0 auto;
+text-align: center;
+ 
     width: 696px;}
 
 .feature{
@@ -243,16 +247,7 @@ margin-bottom: 10px;
 }
 
 
-.logo{
-    font-family: Raleway;
-    font-size: 26px;
-    font-weight: 700;
-    line-height: 31px;
-    letter-spacing: 0.03em;
-    text-align: left;
-text-decoration: none;
-color: rgba(33, 150, 243, 1);
-}
+
 
 
   
@@ -263,6 +258,17 @@ a{
 
 footer{
     background: #2F303A;
+}
+
+.logo{
+    font-family: Raleway;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    text-align: left;
+text-decoration: none;
+color: rgba(33, 150, 243, 1);
 }
 
 .footer-logo {
@@ -314,9 +320,14 @@ footer{
 }
     /* ----------пртфоліо----------- */
     
-      
+    .nav-button{
+       margin-left: 355px;
+       margin-right: 355px;
+    }
+
 .custom-button{
    margin-top: 94px;
+ 
 }
 
        .custom-button {
@@ -348,15 +359,37 @@ footer{
       font-family: Roboto;
       font-weight: 700;
       font-size: 36px;
-    margin-top: 34px;}
+    margin-top: 34px;
+     display: flex;
+
+     
+}
       
-      
+.services-list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-bottom: 94px;
+}
+
+.services-item{
+    border: 1px solid #EEE;
+    background: #FFF;
+}
+
+.services-img{
+    margin-bottom: 20px;
+}
+
         .services-item-title{
           font-family: Roboto;
       font-size: 16px;
       font-weight: 500;
       line-height: 1.2;
       letter-spacing: 0.03em;
+      margin-bottom: 10px;
+      margin-left: 24px;
+
       }
       
       .services-item-description{
@@ -366,6 +399,8 @@ footer{
           line-height: 1.2;
           letter-spacing: 0.03em;
           color: darkgray;
+          margin-left: 24px;
+          margin-bottom: 20px;
           
       }
       
